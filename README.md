@@ -8,7 +8,7 @@ After git clone, follow these:
 
 2) Make virtual environment.
    - virtualenv venv
-   - venv\Script\activate (Or "source venv/bin/activate" in Mac)
+   - venv\Scripts\activate (Or "source venv/bin/activate" in Mac)
    - pip install -r requirements.txt
 
 3) python manage.py migrate
