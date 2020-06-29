@@ -71,5 +71,5 @@ def register(request):
 				useremail=useremail
 			)
 			member.save()
-
+			return redirect('/')
 		return render(request, 'register.html', res_data)

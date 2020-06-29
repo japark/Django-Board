@@ -52,7 +52,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'xor_community.urls'
+ROOT_URLCONF = 'django_board.urls'
 
 TEMPLATES = [
     {
@@ -70,7 +70,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'xor_community.wsgi.application'
+WSGI_APPLICATION = 'django_board.wsgi.application'
 
 
 # Database

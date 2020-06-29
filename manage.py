@@ -5,7 +5,7 @@ import sys
 
 
 def main():
-    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'xor_community.settings')
+    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'django_board.settings')
     try:
         from django.core.management import execute_from_command_line
     except ImportError as exc:
