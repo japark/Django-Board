@@ -22,4 +22,4 @@ After git clone, follow these:
    - You can now control the admin site.
 
 6) Go to 127.0.0.1:8000
-   - It's the "Django-Board" website, which is intented to show you.
+   - It's the "Django-Board" website, which is intended to show you.
